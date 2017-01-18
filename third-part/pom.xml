@@ -712,10 +712,10 @@
 	    <artifactId>commons-dbutils</artifactId>
 	    <version>1.6</version>
 	</dependency>
+	<dependency>
+		<groupId>com.alic.spring_module</groupId>
+		<artifactId>spring-module</artifactId>
+		<version>0.0.5</version>
+	</dependency>
   </dependencies>
-  <modules>
-  	<module>dictionary</module>
-  	<module>spring-module</module>
-    <module>spring</module>
-  </modules>
 </project>

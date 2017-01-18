@@ -3,6 +3,7 @@
 	<name>third-part</name>
 	<comment></comment>
 	<projects>
+		<project>spring-module</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
