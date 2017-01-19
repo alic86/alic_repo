@@ -11,6 +11,7 @@ import javax.annotation.Resource;
 import org.codehaus.jackson.type.TypeReference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
@@ -36,7 +37,7 @@ import redis.clients.util.Slowlog;
 public final class CacheUtils {
 	private static final Logger logger = LoggerFactory.getLogger(CacheUtils.class);
 	public static final Charset DEFAULT_CHARSET = Charset.forName("UTF-8");
-//	@Value("${redis.dbIndex}") 
+	@Value("${redis.dbIndex}") 
 	private static int dbIndex;
 	private static JedisSentinelPool jedisPool;
 
