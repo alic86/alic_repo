@@ -1,5 +1,7 @@
 package com.lefu.dao;
 
-public class MyDaoImpl {
+import com.alic.dao.BaseDaoImpl;
+
+public class MyDaoImpl extends BaseDaoImpl {
 	
 }
