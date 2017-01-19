@@ -455,30 +455,6 @@
 	</dependency>
 	
 	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi</artifactId>
-	    <version>3.6</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi-contrib</artifactId>
-	    <version>3.6</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi-ooxml</artifactId>
-	    <version>3.6</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi-ooxml-schemas</artifactId>
-	    <version>3.6</version>
-	</dependency>
-	
-	<dependency>
   		<groupId>org.apache.struts</groupId>
   		<artifactId>struts2-core</artifactId>
   		<version>2.3.15.1</version>
@@ -702,20 +678,28 @@
 	</dependency>
 	
 	<dependency>
-	    <groupId>org.apache.activemq</groupId>
-	    <artifactId>activemq-core</artifactId>
-	    <version>5.7.0</version>
-	</dependency>
-	
-	<dependency>
 	    <groupId>commons-dbutils</groupId>
 	    <artifactId>commons-dbutils</artifactId>
 	    <version>1.6</version>
 	</dependency>
+
+	<dependency>
+	    <groupId>com.janeluo</groupId>
+	    <artifactId>ikanalyzer</artifactId>
+	    <version>2012_u6</version>
+	</dependency>
+	
 	<dependency>
 		<groupId>com.alic</groupId>
 		<artifactId>spring-module</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.github.maybeec/lexeme -->
+	<dependency>
+	    <groupId>com.github.maybeec</groupId>
+	    <artifactId>lexeme</artifactId>
+	    <version>1.0.0</version>
 	</dependency>
   </dependencies>
 </project>
