@@ -1,4 +1,4 @@
-package com.lefu.util;
+package com.alic.util;
 
 import java.nio.charset.Charset;
 import java.util.List;

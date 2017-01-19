@@ -3,9 +3,9 @@ package com.alic.third_part;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.lefu.bean.Student;
-import com.lefu.util.CacheUtils;
-import com.lefu.util.JsonUtils;
+import com.alic.bean.Student;
+import com.alic.util.CacheUtils;
+import com.alic.util.JsonUtils;
 
 import redis.clients.jedis.Jedis;
 

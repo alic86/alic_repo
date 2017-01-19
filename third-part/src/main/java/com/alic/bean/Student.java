@@ -1,4 +1,4 @@
-package com.lefu.bean;
+package com.alic.bean;
 
 public class Student {
 	private Long id;

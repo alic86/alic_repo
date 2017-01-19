@@ -1,4 +1,4 @@
-package com.lefu.util;
+package com.alic.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

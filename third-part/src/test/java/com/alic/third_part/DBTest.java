@@ -7,8 +7,8 @@ import java.util.Map.Entry;
 
 import org.junit.Test;
 
-import com.lefu.bean.Student;
-import com.lefu.common.DBUtil;
+import com.alic.bean.Student;
+import com.alic.common.DBUtil;
 
 public class DBTest {
 	@Test

@@ -1,4 +1,4 @@
-package com.lefu.common;
+package com.alic.common;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

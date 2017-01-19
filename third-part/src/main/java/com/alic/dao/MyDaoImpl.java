@@ -1,4 +1,4 @@
-package com.lefu.dao;
+package com.alic.dao;
 
 import com.alic.dao.BaseDaoImpl;
 
